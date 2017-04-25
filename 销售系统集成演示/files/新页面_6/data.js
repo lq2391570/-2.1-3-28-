@@ -1,0 +1,150 @@
+﻿$axure.loadCurrentPage({
+  "url":"新页面_6.html",
+  "generationDate":new Date(1402239530070.79),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"f456879104904c268e51ac48cd2241a4",
+    "type":"Axure:Page",
+    "name":"新页面 6",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c403a51c2a384233a4ddab6f946af1ac",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":130,
+              "y":20},
+            "size":{
+              "width":550,
+              "height":350}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d115cc81e3294311bbfda9b3e2816143",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":130,
+                  "y":20},
+                "size":{
+                  "width":550,
+                  "height":350}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/新页面_6/u0.png"}},
+{
+          "id":"173a953a9b224973a584e52f74abf2fa",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'华文行楷 Regular', '华文行楷'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF3399,
+              "opacity":1},
+            "location":{
+              "x":338.5,
+              "y":156},
+            "size":{
+              "width":133,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"86e8729ceab247fba7fa6f6c39d43dc0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'华文行楷 Regular', '华文行楷'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF3399,
+                  "opacity":1},
+                "location":{
+                  "x":338.5,
+                  "y":156},
+                "size":{
+                  "width":133,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a8e0f8cde33a439c8323a67e178428be",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":355,
+              "y":220},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 主页 促销板块 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主页_促销板块.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c403a51c2a384233a4ddab6f946af1ac":{
+      "scriptId":"u0"},
+    "d115cc81e3294311bbfda9b3e2816143":{
+      "scriptId":"u1"},
+    "173a953a9b224973a584e52f74abf2fa":{
+      "scriptId":"u2"},
+    "86e8729ceab247fba7fa6f6c39d43dc0":{
+      "scriptId":"u3"},
+    "a8e0f8cde33a439c8323a67e178428be":{
+      "scriptId":"u4"}}});

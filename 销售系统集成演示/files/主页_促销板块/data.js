@@ -1,0 +1,170 @@
+﻿$axure.loadCurrentPage({
+  "url":"主页_促销板块.html",
+  "generationDate":new Date(1402239529591.77),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"deeb1e110ad9411da273f16006c25c2f",
+    "type":"Axure:Page",
+    "name":"主页 促销板块",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b3bae254e2c04eb0a9d6023722900bac",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":20},
+            "size":{
+              "width":540,
+              "height":400}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3ec281a7d5d746da85d10b89f7bd23c9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":140,
+                  "y":20},
+                "size":{
+                  "width":540,
+                  "height":400}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/主页_促销板块/u0.png"}},
+{
+          "id":"3af537949fad42ba8ef224f239317efc",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "location":{
+              "x":320,
+              "y":335},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 新页面 1 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新页面_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"dd8ad1de4ca0485f9fc4befffc2bf4f0",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "location":{
+              "x":436,
+              "y":335},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 新页面 1 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新页面_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"d0ac497fd8f14617a2be95086f63f8f0",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "location":{
+              "x":554,
+              "y":335},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 新页面 1 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新页面_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b3bae254e2c04eb0a9d6023722900bac":{
+      "scriptId":"u0"},
+    "3ec281a7d5d746da85d10b89f7bd23c9":{
+      "scriptId":"u1"},
+    "3af537949fad42ba8ef224f239317efc":{
+      "scriptId":"u2"},
+    "dd8ad1de4ca0485f9fc4befffc2bf4f0":{
+      "scriptId":"u3"},
+    "d0ac497fd8f14617a2be95086f63f8f0":{
+      "scriptId":"u4"}}});

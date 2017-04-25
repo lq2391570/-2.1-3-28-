@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FaceColourViewController">
+            <connections>
+                <outlet property="_pointView" destination="QhI-vP-rG1" id="NdO-TD-ht9"/>
+                <outlet property="selectImage2" destination="0dk-Nv-tiM" id="6tY-1U-6cG"/>
+                <outlet property="selectImage3" destination="P3f-xj-T55" id="xrJ-iH-oGY"/>
+                <outlet property="selectImage4" destination="O63-z3-Ozh" id="UY6-Zp-tEt"/>
+                <outlet property="selectView1" destination="HpY-ZL-gVD" id="cTZ-mo-iEA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_背景.2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pwu-Lq-BuS">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5or-ig-Iu1">
+                    <rect key="frame" x="417" y="654" width="144" height="37"/>
+                    <animations/>
+                    <state key="normal" backgroundImage="圣梦_面部_下一步_63.jpg">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="nextBtn:" destination="-1" eventType="touchUpInside" id="nNG-zo-kJ1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dp-Mm-kvk">
+                    <rect key="frame" x="514" y="452" width="166" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="36-45岁" backgroundImage="圣梦_面部_03.jpg">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ageBtnClick:" destination="-1" eventType="touchUpInside" id="zdl-cz-Cwg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXj-dH-Iyd">
+                    <rect key="frame" x="727" y="452" width="166" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="45岁以上" backgroundImage="圣梦_面部_03.jpg">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ageBtnClick:" destination="-1" eventType="touchUpInside" id="lPs-rk-krI"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请 选 择 您 的 年 龄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rX-IG-hka">
+                    <rect key="frame" x="62" y="344" width="242" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请 选 择 您 的 肤 色" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3g-Tu-X2P">
+                    <rect key="frame" x="62" y="120" width="242" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Y-o8-cgp">
+                    <rect key="frame" x="89" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_12.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jbn-7P-n8k">
+                    <rect key="frame" x="147" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_14.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4lc-EB-wbZ">
+                    <rect key="frame" x="205" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_16.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-h3-Yp2">
+                    <rect key="frame" x="263" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_18.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WKT-bO-bWW">
+                    <rect key="frame" x="321" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ssM-HJ-tLe">
+                    <rect key="frame" x="379" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-Wv-uqW">
+                    <rect key="frame" x="437" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_24.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="67n-Hh-PBg">
+                    <rect key="frame" x="495" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_26.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UbC-dM-nXS">
+                    <rect key="frame" x="553" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_28.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pGy-9a-kNe">
+                    <rect key="frame" x="611" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_30.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4n0-pc-mCu">
+                    <rect key="frame" x="669" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_32.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8BP-sX-xM8">
+                    <rect key="frame" x="727" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_34.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vCk-5k-eig">
+                    <rect key="frame" x="785" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_肤色色块_36.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GFv-4p-iid">
+                    <rect key="frame" x="843" y="192" width="50" height="50"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRY-fg-KIS">
+                    <rect key="frame" x="89" y="452" width="166" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="15-25岁" backgroundImage="圣梦_面部_03.jpg">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ageBtnClick:" destination="-1" eventType="touchUpInside" id="JjR-Gk-0y9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2A-y9-JKl">
+                    <rect key="frame" x="299" y="452" width="166" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="26-35岁" backgroundImage="圣梦_面部_03.jpg">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ageBtnClick:" destination="-1" eventType="touchUpInside" id="7T0-JD-ugl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Q-Ps-L3J">
+                    <rect key="frame" x="93" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="ezm-at-72t"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzz-La-Q9F">
+                    <rect key="frame" x="151" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="bPA-YR-9HM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQA-0F-dax">
+                    <rect key="frame" x="209" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="HnO-DS-fkl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huj-Tf-dPn">
+                    <rect key="frame" x="267" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="pBB-GT-v7E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-wK-MHP">
+                    <rect key="frame" x="325" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="I2C-pG-Eyc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl9-td-7Bv">
+                    <rect key="frame" x="383" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="UyU-kd-NcS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqp-MB-Nyw">
+                    <rect key="frame" x="441" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="eAk-Mf-H52"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-1h-Ooh">
+                    <rect key="frame" x="499" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="eHl-Ot-ynP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mU-2W-ef8">
+                    <rect key="frame" x="557" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="Xxb-mi-mSL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7F-3S-ds5">
+                    <rect key="frame" x="615" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="ic7-Ue-Ibc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Pi-Sm-Zi9">
+                    <rect key="frame" x="673" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="mvd-nB-qXw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-mt-QV7">
+                    <rect key="frame" x="731" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="Zxd-Hq-mlu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdK-PB-tZz">
+                    <rect key="frame" x="789" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="R30-Eb-eq1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbg-ie-K60">
+                    <rect key="frame" x="847" y="197" width="42" height="40"/>
+                    <animations/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="Ef1-cd-R4T"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_面部_44.png" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-vP-rG1">
+                    <rect key="frame" x="100" y="250" width="28" height="25"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpY-ZL-gVD">
+                    <rect key="frame" x="215" y="459" width="31" height="27"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dk-Nv-tiM">
+                    <rect key="frame" x="425" y="459" width="31" height="27"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P3f-xj-T55">
+                    <rect key="frame" x="642" y="459" width="31" height="27"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O63-z3-Ozh">
+                    <rect key="frame" x="858" y="459" width="31" height="27"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="圣梦_面部_03.jpg" width="440" height="100"/>
+        <image name="圣梦_面部_44.png" width="30" height="20"/>
+        <image name="圣梦_面部_下一步_63.jpg" width="450" height="100"/>
+        <image name="圣梦_面部_肤色色块_10.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_12.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_14.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_16.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_18.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_20.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_22.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_24.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_26.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_28.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_30.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_32.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_34.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_肤色色块_36.jpg" width="100" height="100"/>
+        <image name="圣梦_面部_背景.2.jpg" width="2048" height="1536"/>
+    </resources>
+</document>

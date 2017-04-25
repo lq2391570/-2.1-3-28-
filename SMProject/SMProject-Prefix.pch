@@ -1,0 +1,48 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "JSON.h"
+    #import "ProgressHUD.h"
+#import <QuartzCore/QuartzCore.h>
+
+#define Screen_height   [[UIScreen mainScreen] bounds].size.height
+#define Screen_width    [[UIScreen mainScreen] bounds].size.width
+#define Screen_bounds   [[UIScreen mainScreen] bounds]
+#define coordinate_width(num) ((num)/320.0)*Screen_width
+#define coordinate_height(num) ((num)/568.0)*Screen_height
+
+//#define LocationIp @"http://192.168.199.129:8080/Sanmoon/"
+//版本更新的url
+//测试版
+#define ReLocation @"https://ipad.sanmoon.net/version/cssanmoon/CSSMVersion.html"
+#define LocationIp @"http://ipad.sanmoon.net:9999/CsSanmoon/"
+#define RIP @"http://113.140.20.6/csgetdata/"
+//正式版
+//#define ReLocation @"https://ipad.sanmoon.net/version/sanmoon/SMVersion.html"
+//#define LocationIp @"http://ipad.sanmoon.net:9999/Sanmoon/"
+//#define RIP @"http://113.140.20.6/getdata/"
+//plist文件地址(测试)
+#define ReLocationPlist @"itms-services://?action=download-manifest&url=https://ipad.sanmoon.net/version/cssanmoon/CSSanmoon.plist";
+//plist文件地址（正式）
+//#define ReLocationPlist @"itms-services://?action=download-manifest&url=https://ipad.sanmoon.net/version/sanmoon/Sanmoon.plist";
+
+//#define LocationIp @"http://120.24.188.146/Sanmoon1.0/"
+//#define RIP @"http://113.140.20.6/getdata/"
+
+
+#define MAINURL @"http://124.115.170.165:8080/Sanmoon1.0/"
+#define GETURL @"http://124.115.170.165:8080/Sanmoon1.0/findImagesLinkToIpad?comp.imagesIds="
+#endif
+ 

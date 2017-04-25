@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMSelfServiceController">
+            <connections>
+                <outlet property="btn1" destination="kVw-Jx-fqW" id="TOW-pI-Lsl"/>
+                <outlet property="btn10" destination="bya-kp-Xuk" id="a9P-1u-xbh"/>
+                <outlet property="btn11" destination="1mb-hW-EMA" id="dZg-81-ks2"/>
+                <outlet property="btn2" destination="F8j-Zb-dn4" id="FHa-d3-uCr"/>
+                <outlet property="btn3" destination="t5f-MT-72K" id="9MX-GA-4CH"/>
+                <outlet property="btn4" destination="xsB-gV-k5T" id="lqU-OQ-zZh"/>
+                <outlet property="btn5" destination="ZBs-eY-yMD" id="eYo-Iq-fio"/>
+                <outlet property="btn6" destination="bgz-6p-aNa" id="8do-Md-tr4"/>
+                <outlet property="btn7" destination="Ag2-oU-UOo" id="w2n-2J-f8a"/>
+                <outlet property="btn8" destination="4v5-F6-zBr" id="yKY-VT-Gx8"/>
+                <outlet property="btn9" destination="lKp-Rv-Qxr" id="p4g-Pr-qC0"/>
+                <outlet property="btnB1" destination="RPP-me-1rH" id="CDc-qF-ll6"/>
+                <outlet property="btnB10" destination="6Dl-hH-5q2" id="JBe-3G-qi5"/>
+                <outlet property="btnB11" destination="HLl-aW-A2Y" id="1RY-nH-Cae"/>
+                <outlet property="btnB2" destination="AiN-Jn-oVt" id="gr9-th-aqM"/>
+                <outlet property="btnB3" destination="87x-Eb-lJ5" id="CB9-UI-rsy"/>
+                <outlet property="btnB4" destination="wGp-BB-8fa" id="5o6-Cf-I4n"/>
+                <outlet property="btnB5" destination="P5M-We-YZ4" id="Gh7-Yw-8G2"/>
+                <outlet property="btnB6" destination="G4R-43-7qF" id="amu-Oq-2Dt"/>
+                <outlet property="btnB7" destination="R11-xc-v16" id="U1x-zx-AFS"/>
+                <outlet property="btnB8" destination="hUc-Af-oab" id="Cxx-If-Fnq"/>
+                <outlet property="btnB9" destination="ngv-n2-dwt" id="H4b-Qc-sMo"/>
+                <outlet property="btnReset" destination="Mwl-g5-so7" id="3AW-Qs-6PP"/>
+                <outlet property="selectView" destination="4Jh-QL-Uug" id="dxZ-kn-HWE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bnH-iY-RSY">
+                    <rect key="frame" x="6" y="0.0" width="1106" height="781"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="圣梦_身体标记.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oCf-jr-h38">
+                            <rect key="frame" x="-5" y="0.0" width="1024" height="768"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVw-Jx-fqW">
+                            <rect key="frame" x="162" y="149" width="59" height="56"/>
+                            <state key="normal" title="1" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn1Clicked:" destination="-1" eventType="touchUpInside" id="byh-qH-kTG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8j-Zb-dn4">
+                            <rect key="frame" x="235" y="149" width="59" height="56"/>
+                            <state key="normal" title="2" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn2Clicked:" destination="-1" eventType="touchUpInside" id="iya-0U-UMp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5f-MT-72K">
+                            <rect key="frame" x="310" y="149" width="59" height="56"/>
+                            <state key="normal" title="3" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn3Clicked:" destination="-1" eventType="touchUpInside" id="Kb0-JU-EmK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsB-gV-k5T">
+                            <rect key="frame" x="385" y="149" width="59" height="56"/>
+                            <state key="normal" title="4" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn4Clicked:" destination="-1" eventType="touchUpInside" id="9UB-cq-bMQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBs-eY-yMD">
+                            <rect key="frame" x="162" y="219" width="59" height="56"/>
+                            <state key="normal" title="5" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn5Clicked:" destination="-1" eventType="touchUpInside" id="f5e-64-lMf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgz-6p-aNa">
+                            <rect key="frame" x="235" y="219" width="59" height="56"/>
+                            <state key="normal" title="6" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn6Clicked:" destination="-1" eventType="touchUpInside" id="NJj-Ku-dyM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag2-oU-UOo">
+                            <rect key="frame" x="310" y="219" width="59" height="56"/>
+                            <state key="normal" title="7" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn7Clicked:" destination="-1" eventType="touchUpInside" id="evj-nU-kIM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4v5-F6-zBr">
+                            <rect key="frame" x="385" y="219" width="59" height="56"/>
+                            <state key="normal" title="8" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn8Clicked:" destination="-1" eventType="touchUpInside" id="Laz-D8-kdS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKp-Rv-Qxr">
+                            <rect key="frame" x="162" y="292" width="59" height="56"/>
+                            <state key="normal" title="9" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn9Clicked:" destination="-1" eventType="touchUpInside" id="nns-vx-QZi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bya-kp-Xuk">
+                            <rect key="frame" x="235" y="292" width="59" height="56"/>
+                            <state key="normal" title="10" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn10Clicked:" destination="-1" eventType="touchUpInside" id="Avp-vn-0Hc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mb-hW-EMA">
+                            <rect key="frame" x="310" y="292" width="59" height="56"/>
+                            <state key="normal" title="11" backgroundImage="圣梦_151.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn11Clicked:" destination="-1" eventType="touchUpInside" id="cbI-h3-yUT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-g5-so7">
+                            <rect key="frame" x="385" y="292" width="59" height="56"/>
+                            <state key="normal" backgroundImage="圣梦_221.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRestClicked:" destination="-1" eventType="touchUpInside" id="FB3-50-VoT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KY-tr-LAb">
+                            <rect key="frame" x="224" y="583" width="179" height="49"/>
+                            <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="返回">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="ou5-ly-5Bf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZX-DL-Wdh">
+                            <rect key="frame" x="224" y="509" width="179" height="49"/>
+                            <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="进入面部护理">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goToFace:" destination="-1" eventType="touchUpInside" id="6og-Ne-MF8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPP-me-1rH">
+                            <rect key="frame" x="771" y="141" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiN-Jn-oVt">
+                            <rect key="frame" x="772" y="165" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87x-Eb-lJ5">
+                            <rect key="frame" x="771" y="189" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGp-BB-8fa">
+                            <rect key="frame" x="771" y="214" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5M-We-YZ4">
+                            <rect key="frame" x="771" y="238" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4R-43-7qF">
+                            <rect key="frame" x="772" y="262" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R11-xc-v16">
+                            <rect key="frame" x="772" y="286" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUc-Af-oab">
+                            <rect key="frame" x="772" y="310" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngv-n2-dwt">
+                            <rect key="frame" x="772" y="335" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLl-aW-A2Y">
+                            <rect key="frame" x="804" y="201" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dl-hH-5q2">
+                            <rect key="frame" x="736" y="201" width="20" height="20"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Jh-QL-Uug">
+                            <rect key="frame" x="153" y="403" width="498" height="91"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="圣梦_151.png" width="145" height="145"/>
+        <image name="圣梦_221.png" width="145" height="145"/>
+        <image name="圣梦_身体标记.jpg" width="2048" height="1536"/>
+    </resources>
+</document>
